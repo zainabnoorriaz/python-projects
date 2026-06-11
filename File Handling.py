@@ -7,8 +7,7 @@ def add_student():
 def view_students():
     print("The students are: ")
     for student in students :
-          
-     print(student)
+        print(student)
 
 def search_student(name):
    return name in students

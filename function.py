@@ -14,9 +14,9 @@ def search_student(name):
 def delete_student(name):
    if search_student(name):
       students.remove(name)
-      print("Success")
+      return True
    else:
-      print("Not found")
+      return False
 
 while(True):
     print("1. Add student")
@@ -44,7 +44,10 @@ while(True):
              print("Not found")
        elif choice == 4 :
           name = input("Enter name to delete: ") 
-          delete_student(name)
+          if delete_student(name):
+             print("Success")
+          else :
+             print("Not found")
         
     else :
      print("Invalid choice")
