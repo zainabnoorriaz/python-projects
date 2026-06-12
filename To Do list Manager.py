@@ -60,7 +60,6 @@ while (True) :
    add_task()
 
  elif choice == '2':
-   print("View task")
    view_task()
 
  elif choice == '3':
