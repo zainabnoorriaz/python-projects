@@ -1,7 +1,7 @@
 score = 0
 questions = [ ["What is the capital of Pakistan?", "Islamabad"],
              ["What is 2 + 2 = ?", '4'],
-             ["What language us used in CS50?", "Python"]
+             ["What language was used in CS50?", "Python"]
              
 ]
 for question in questions :
