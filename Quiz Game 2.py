@@ -21,6 +21,10 @@ for question in questions :
     while(True) :
       user_input= input("Enter your answer:")
 
+      if user_input not in ["A","B", "C", "D"] :
+         print("Invalid input")
+         continue
+
 
       if user_input == question['answer'] :
          print("Correct!")
