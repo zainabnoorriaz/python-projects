@@ -1,5 +1,23 @@
+#star
+import turtle
 
+t = turtle.Turtle()
 
+for i in range(5):
+    t.forward(200)
+    t.right(144)
+
+turtle.done()
+
+#circle
+import turtle
+t = turtle.Turtle()
+for i in range (360) :
+    t.forward(2)
+    t.right(1)
+turtle.done()
+
+#flower
 import turtle
 
 t = turtle.Turtle()
